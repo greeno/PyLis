@@ -46,6 +46,7 @@ CourseSectionManagerSyncService
 + createCourseSection(GUID.Type sourcedId, CourseSectionRecord.Type courseSectionRecord, )
 + deleteCourseSection(GUID.Type sourcedId, )
 + replaceCourseSection(GUID.Type sourcedId, CourseSectionRecord.Type courseSectionRecord, )
+
 ### UNAVAILABLE
 + changeCourseSectionIdentifier(GUID.Type sourcedId, GUID.Type newSourcedId, )
 + createByProxyCourseSection(CourseSectionRecord.Type courseSectionRecord, )
@@ -65,6 +66,7 @@ GroupManagementServiceSyncService
 + createGroup(GUID.Type sourcedId, GroupRecord.Type groupRecord, )
 + deleteGroup(GUID.Type sourcedId, )
 + replaceGroup(GUID.Type sourcedId, GroupRecord.Type groupRecord, )
+
 ### UNAVAILABLE
 + addGroupRelationship(GUID.Type sourcedId, Relationship.Type relationship, )
 + changeGroupIdentifier(GUID.Type sourcedId, GUID.Type newSourcedId, )
@@ -85,6 +87,7 @@ MembershipManagementServiceSyncService
 + createMembership(GUID.Type sourcedId, MembershipRecord.Type membershipRecord, )
 + deleteMembership(GUID.Type sourcedId, )
 + replaceMembership(GUID.Type sourcedId, MembershipRecord.Type membershipRecord, )
+
 ### UNVAILABLE
 + changeMembershipIdentifier(GUID.Type sourcedId, GUID.Type newSourcedId, )
 + createByProxyMembership(MembershipRecord.Type membershipRecord, )
